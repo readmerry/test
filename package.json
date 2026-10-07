@@ -1,0 +1,14 @@
+{
+  "name": "job-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "search": "node src/search.mjs",
+    "ingest": "node src/ingest_grades.mjs",
+    "render": "node src/render_docx.mjs"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

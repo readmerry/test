@@ -1,0 +1,78 @@
+{
+  "maxAgeDays": 7,
+  "threshold": 75,
+  "minSalaryCeiling": 80000,
+  "queries": [
+    "business intelligence analyst",
+    "BI developer",
+    "supply chain data analyst",
+    "supply chain analyst",
+    "supply chain analytics",
+    "business systems analyst",
+    "business analyst",
+    "analytics engineer",
+    "data integrity analyst",
+    "logistics analyst",
+    "reporting analyst",
+    "data analyst"
+  ],
+  "titleMustMatch": [
+    "analyst",
+    "analytics",
+    "business intelligence",
+    "\\bbi\\b",
+    "data integrity",
+    "reporting",
+    "bi developer",
+    "analytics engineer"
+  ],
+  "titleExclude": [
+    "intern",
+    "internship",
+    "director",
+    "vice president",
+    "\\bvp\\b",
+    "head of",
+    "principal",
+    "staff ",
+    "chief",
+    "engineering manager",
+    "scientist",
+    "nurse",
+    "sales",
+    "recruit",
+    "software engineer",
+    "devops",
+    "security analyst",
+    "clinical",
+    "intelligence analyst",
+    "compliance",
+    "tax ",
+    "audit"
+  ],
+  "localTerms": [
+    "your city",
+    "your state"
+  ],
+  "sources": {
+    "remotive": true,
+    "remoteok": true,
+    "arbeitnow": true,
+    "himalayas": true,
+    "jobicy": true,
+    "adzuna": {
+      "enabled": true,
+      "where": "YOUR CITY, ST",
+      "distanceMiles": 40,
+      "note": "needs ADZUNA_APP_ID and ADZUNA_APP_KEY env vars (free at developer.adzuna.com); also runs a nationwide remote query"
+    },
+    "usajobs": {
+      "enabled": false,
+      "note": "needs USAJOBS_API_KEY and USAJOBS_EMAIL env vars"
+    },
+    "greenhouse": [],
+    "lever": [],
+    "ashby": []
+  },
+  "careerPages": []
+}
